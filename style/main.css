@@ -1,0 +1,552 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #014e56;
+}
+
+.container {
+  max-width: 1158px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.header_part {
+  padding-top: 48px;
+  padding-bottom: 30px;
+}
+
+.navbar_links {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.navbar-btn {
+  display: none;
+}
+
+@media (min-width: 765px) {
+  .navbar_links {
+    display: inline-block;
+  }
+  .navbar_links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  .navbar_links a:first-child {
+    padding-right: 40px;
+  }
+  .navbar_logo {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+  }
+  .navbar-menu-btn {
+    display: none;
+  }
+  .navbar-btn {
+    display: inline-block;
+    color: white;
+    padding: 10px 32px 10px 33px;
+    border-radius: 20px;
+    border: 2px solid;
+  }
+}
+.headers {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/bottomlogo.svg);
+  background-position: center bottom;
+  padding-bottom: 250px;
+}
+
+.header-title {
+  padding-top: 80px;
+}
+
+.header-sub-title {
+  font-family: Livvic;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  width: 220px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.for-header-span {
+  color: #f67e7e;
+}
+
+.header-text {
+  padding-top: 18px;
+  width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-texts {
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 765px) {
+  .header-sub-title {
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    width: 380px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .header-texts {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+  }
+  .header-text {
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1100px) {
+  .headers {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/center.svg), url(../img//bottomlogo.svg);
+    background-position: left center, 80% bottom;
+  }
+  .header-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    gap: 125px;
+  }
+  .header-sub-title {
+    text-align: left;
+    font-size: 100px;
+    line-height: 100%;
+    width: 600px;
+  }
+  .header-text {
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 195%;
+  }
+  .header-text p {
+    text-align: start;
+  }
+  .navbar_link {
+    font-size: 30px;
+  }
+}
+.persons {
+  background: #012f34;
+  padding-top: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../img/topimg.svg);
+  background-position: right top;
+}
+
+.person-title {
+  width: 224px;
+  height: 160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.person-sub-title {
+  font-family: Livvic;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: white;
+}
+
+.person-card {
+  padding-bottom: 65px;
+}
+
+.person-cards {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.person-about {
+  width: 327px;
+  height: 75px;
+  top: 36px;
+  gap: 0px;
+  opacity: 0.8px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.person-about-title {
+  color: #f67e7e;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+
+.person-text {
+  color: white;
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+}
+
+@media (min-width: 765px) {
+  .person-title {
+    width: 445px;
+    height: 64px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .person-sub-title {
+    font-family: Livvic;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+  }
+  .person-about {
+    -moz-text-align-last: left;
+         text-align-last: left;
+    margin-right: 0;
+    margin-left: 0;
+    width: 478px;
+    height: 50px;
+    top: 44px;
+    gap: 0px;
+    opacity: 0.8px;
+  }
+  .person-card {
+    display: flex;
+    gap: 40px;
+  }
+  .person-text {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+  }
+}
+@media (min-width: 1100px) {
+  .person-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 125px;
+    padding-bottom: 140px;
+  }
+  .person-title {
+    width: 445px;
+    height: 144px;
+    top: 898px;
+    left: 165px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .person-sub-title {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+  }
+  .person-cards {
+    padding-top: 150px;
+  }
+  .persons {
+    background-repeat: no-repeat;
+    background-image: url(../img/topimg.svg);
+    background-position: right bottom;
+  }
+}
+.storis {
+  background-repeat: no-repeat;
+  background-image: url(../img/persontop.svg), url(../img/personbottom.svg);
+  background-position: top left, bottom right;
+}
+
+.title-storis {
+  color: white;
+  font-size: 30px;
+  width: 300px;
+  padding-top: 140px;
+  text-align: center;
+  padding-bottom: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pcard {
+  background-repeat: no-repeat;
+  background-image: url(../img/undov.svg);
+  background-position: center top;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.ptext {
+  padding-top: 40px;
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  padding-bottom: 18px;
+}
+
+.storisspan {
+  color: #79c8c7;
+}
+
+.storistitle {
+  color: #79c8c7;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.spes {
+  font-family: Livvic;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.storis_card {
+  padding-bottom: 110px;
+}
+
+@media (min-width: 768px) {
+  .title-storis {
+    color: white;
+    font-size: 40px;
+    width: 550px;
+    padding-top: 140px;
+    text-align: center;
+    padding-bottom: 80px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .ptext {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: Livvic;
+    color: white;
+    padding-bottom: 18px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (min-width: 1100px) {
+  .title-storis {
+    color: white;
+    font-size: 50px;
+    width: 970px;
+    padding-top: 140px;
+    text-align: center;
+    padding-bottom: 80px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .storis_card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+  .ptext {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: Livvic;
+    color: white;
+    padding-bottom: 18px;
+    width: 330px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.advert {
+  background-color: #f67e7e;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../img//advert.svg);
+  background-position: bottom left;
+}
+
+.adverts {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.advert-btn {
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+  background: none;
+  border: 2px solid black;
+}
+
+.advert-title {
+  font-family: Livvic;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: black;
+  width: 327px;
+  height: 64px;
+  padding-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .adverts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .advert-btn {
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    margin-top: 0px;
+    background: none;
+    border: 2px solid black;
+  }
+  .advert-title {
+    width: 350px;
+  }
+}
+.footer {
+  background-color: #002529;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-all {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer_link {
+  padding-top: 10px;
+}
+
+.footer_link a {
+  color: white;
+  margin: 5px;
+}
+
+.footer_about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.footer_about a {
+  line-height: 25px;
+  color: #5c7476;
+}
+
+.footer_adv {
+  padding-top: 10px;
+}
+.footer_adv a {
+  margin: 5px;
+}
+
+.footer-copy {
+  padding-top: 10px;
+}
+.footer-copy a {
+  color: #5c7476;
+}
+
+@media (min-width: 768px) {
+  .footer-all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+}/*# sourceMappingURL=main.css.map */

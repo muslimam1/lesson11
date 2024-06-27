@@ -1,0 +1,114 @@
+.storis {
+  background-repeat: no-repeat;
+  background-image: url(../img/persontop.svg), url(../img/personbottom.svg);
+  background-position: top left, bottom right;
+}
+.title__storis {
+  color: white;
+  font-size: 30px;
+  width: 300px;
+  padding-top: 140px;
+  text-align: center;
+  padding-bottom: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.pcard {
+  background-repeat: no-repeat;
+  background-image: url(../img/undov.svg);
+  background-position: center top;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.ptext {
+  padding-top: 40px;
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  padding-bottom: 18px;
+}
+.storisspan {
+  color: #79c8c7;
+}
+.storistitle {
+  color: #79c8c7;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.spes {
+  font-family: Livvic;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
+.storis__card {
+  padding-bottom: 110px;
+}
+
+@media (min-width: 768px) {
+  .title__storis {
+    color: white;
+    font-size: 40px;
+    width: 550px;
+    padding-top: 140px;
+    text-align: center;
+    padding-bottom: 80px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .ptext {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+
+    padding-top: 40px;
+    font-family: Livvic;
+
+    color: white;
+    padding-bottom: 18px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1100px) {
+  .title__storis {
+    color: white;
+    font-size: 50px;
+    width: 970px;
+    padding-top: 140px;
+    text-align: center;
+    padding-bottom: 80px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .storis__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+  .ptext {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+
+    padding-top: 40px;
+    font-family: Livvic;
+
+    color: white;
+    padding-bottom: 18px;
+    width: 330px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
