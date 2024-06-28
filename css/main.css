@@ -117,6 +117,14 @@ body {
   padding-top: 80px;
 }
 
+.header__tex {
+  width: auto;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 156%;
+  color: #fff;
+}
+
 .header__sub-title {
   font-family: Livvic;
   font-size: 40px;
@@ -177,7 +185,6 @@ body {
   .headers {
     text-align: center;
     background-repeat: no-repeat;
-    background-image: url(../img/center.svg), url(../img//bottomlogo.svg);
     background-position: left center, 80% bottom;
   }
   .header__block {
