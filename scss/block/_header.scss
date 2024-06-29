@@ -1,0 +1,146 @@
+.header{
+    background-color: #014e56;
+    padding-top: 73px;
+    padding-bottom: 250px;
+}
+
+.header__desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.img{
+    margin-right: 40px;
+}
+
+.text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    color: #fff;
+}
+
+.header__btn{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 24px;
+    padding: 9px 33px 11px 32px;
+    transition: .45s;
+    background-color: #014e56;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    &:active{
+        transform: scale(.95);
+        background-color:seagreen;
+    }
+}
+
+.header__menu{
+    display: none;
+}
+
+.header__wrap{
+    margin-top: 129px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__subTitle{
+    width: 539px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100%;
+    color: #fff;
+
+    .header__span{
+        color: #f67e7e;
+    }
+}
+
+.header__words{
+    width: 445px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    color: #fff;
+}
+
+@media screen and (max-width: 1080px) {
+    .header__wrap{
+        display: block;
+        text-align: center;
+    }
+
+    .header__words{
+        width: auto;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 156%;
+        color: #fff;
+    }
+
+    .header__block{
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__subTitle{
+        width: auto;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 100%;
+        color: #fff;
+    }  
+
+    .header__subTitle{
+        margin-bottom: 28px;
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .header__subTitle{
+        font-size: 60px;
+    }
+
+
+}
+
+@media screen and (max-width: 650px) {
+    .header__menu{
+        display: block;
+    }
+
+    .header__words{
+        font-size: 15px;
+    }
+
+
+    .header__btn{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .text{
+        display: none;
+    }
+
+}

@@ -1,6 +1,6 @@
-@import "./global";
-@import "./header";
-@import "./person";
-@import "./stori";
-@import "./advert";
-@import "./footer";
+@import './fonts';
+@import './variable';
+@import './global';
+@import './mixin';
+
+@import './block/block';

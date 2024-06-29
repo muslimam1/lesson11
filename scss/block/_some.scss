@@ -1,0 +1,42 @@
+.some{
+    background-color: #012f34;
+}
+
+.some__block{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.some__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 64px;
+}
+
+.some__box{
+    display: flex;
+    gap: 40px;
+}
+
+
+@media screen and (max-width: 1105px) {
+    .some__box{
+        display: flex;
+        gap: 25px;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .some__box{
+        display: block;
+    }
+
+    .some__img{
+        text-align: center;
+        margin-bottom: 45px;
+    }
+}

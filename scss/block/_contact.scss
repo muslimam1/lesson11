@@ -1,0 +1,105 @@
+.contact__name{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 156%;
+    color: #fff;
+}
+
+.contact{
+    padding-bottom: 120px;
+}
+
+.contact__text{
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #f67e7e;
+}
+
+.contact__block{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact__in{
+    padding: 8px 10px;
+    background-color: #032c31;
+    border: none;
+    margin-bottom: 10px;
+    width: 540px;
+    height: 52px;
+
+}
+
+.contact__in:active{
+    border: none;
+}
+
+.contact__btn{
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    color: #004047;
+    border: none;
+    border-radius: 24px;
+    padding: 9px 33px 11px 32px;
+    transition: .45s;
+    background-color: #fff;
+    
+    &:hover{
+        cursor: pointer;
+    }
+    
+    &:active{
+        transform: scale(.95);
+        background-color:azure;
+    }
+}
+
+
+
+@media screen and (max-width: 1110px) {
+    .contact__in{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .contact__block{
+        text-align: center;
+        display: block;
+    }
+
+    .contact__user{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contact__in{
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact__in{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .contact__in{
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .contact__in{
+        width: 270px;
+    }
+}
